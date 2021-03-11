@@ -1,6 +1,4 @@
-# pip install selenium
-# pip install bs4
-# pip install pandas
+# pip install selenium, bs4,pandas
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -10,7 +8,7 @@ import pandas as pd
 x=input('\n\n\n\t\t\t\t\t WELCOME TO JOB SEARCH ENGINE \n\n\n\t\t FIELD    :  ')
 y=input('\n\t\t LOCATION :  ')
 
-driver = webdriver.Chrome("D:\\Stark\\Projects\\JSE\\chromedriver_win32\\chromedriver.exe")
+driver = webdriver.Chrome("__PATH__")
 driver.get('https://www.indeed.co.in/jobs?q={fld}&l={loc}&ts=1579267502893&pts=1578979676714&rq=1&rsIdx=0&fromage=last&newcount=32'.format(fld=x,loc=y))
 elements = driver.find_elements_by_class_name('result')
 
