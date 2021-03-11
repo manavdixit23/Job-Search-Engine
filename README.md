@@ -6,4 +6,4 @@ To use make sure to import all libraries:
 - bs4
 - pandas
 
-also doenload the latest version of chrome driver matching your browser and make sure to update the path in code.
+also download the latest version of chrome driver matching your browser and make sure to update the path in code.
