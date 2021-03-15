@@ -7,3 +7,6 @@ To use make sure to import all libraries:
 - pandas
 
 also download the latest version of chrome driver matching your browser and make sure to update the path in code.
+
+
+As it is a terminal base application always try to run it from terminal .
