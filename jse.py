@@ -1,5 +1,6 @@
-# pip install selenium, bs4,pandas
-
+# pip install selenium
+# pip install  bs4
+# pip install pandas
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
